@@ -1,0 +1,44 @@
+name: ASF-WebConfigGenerator-CI
+
+on: [push, pull_request]
+
+env:
+  NODE_JS_VERSION: 12
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        os: [macos-latest, ubuntu-latest, windows-latest]
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+      with:
+        submodules: recursive
+
+    - name: Setup Node.js with npm
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ env.NODE_JS_VERSION }}
+
+    - name: Verify Node.js
+      run: node -v
+
+    - name: Verify npm
+      run: npm -v
+
+    - name: Install npm modules for ASF-WebConfigGenerator
+      run: npm ci --no-progress
+
+    - name: Build ASF-WebConfigGenerator
+      run: npm run-script build --no-progress
+
+    - name: Upload ASF-WebConfigGenerator
+      continue-on-error: true
+      uses: actions/upload-artifact@v2
+      with:
+        name: ${{ matrix.os }}_ASF-WebConfigGenerator
+        path: docs

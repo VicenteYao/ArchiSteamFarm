@@ -1,0 +1,13 @@
+# Ana Sayfa
+
+ASF Wiki'ye hoş geldiniz. Wiki sıkça sorulan sorular, olası sorunlar, kullanım, kurulum ve çok daha fazlası gibi birçok farklı konuyu kapsayan çevrimiçi bir yardım aracıdır. Eğer ASF'nin nasıl çalıştığını, özellikle nasıl kurulacağını, yapılandıracağını ve kullanacağını öğrenmek istiyorsanız, takip etmeniz gereken şey budur.
+
+Ziyaret ettiğiniz Wiki sayfasının dilini değiştirmek için `-locale` komutunu yazabilirsiniz. Örneğin, **[Home](https://github.com/JustArchiNET/ArchiSteamFarm/wiki/Home)**u ziyaret etmek yerine, Rusçaya çevrilmiş ana sayfa olan **[Home-ru-RU](https://github.com/JustArchiNET/ArchiSteamFarm/wiki/Home-ru-RU)**yu ziyaret edebilirsiniz (eğer mevcutsa). Topluluk tarafından %90 veya daha üzeri seviyede çevrilen diller ayrıca kolay erişim için wiki yan çubuğunda da (sağ taraf) mevcut olacak.
+
+Aksi belirtilmedikçe (mesela "V2" gibi), bütün Wiki sayfaları daima **[en son ASF sürümü](https://github.com/JustArchiNET/ArchiSteamFarm/releases)**ne atfedilmiştir. Belirli bir zamandaki bir Wiki sayfasını görmek isterseniz (örneğin biraz eski bir ASF sürümü için), her sayfanın üst kısmında bulunan **[düzeltmeler](https://github.com/JustArchiNET/ArchiSteamFarm/wiki/_history)** kısmını kullanın ve görmek istediğiniz ASF sürümünüz için uygun bir tarih seçin. Mevcut sürüm için olan tüm sayfaları tuttuğumuz gibi, önceki büyük ASF sürümlerinikileri de tutuyoruz.
+
+Eğer yeni bir kullanıcıysanız, **[kurulum](https://github.com/JustArchiNET/ArchiSteamFarm/wiki/Setting-up)** rehberi ile başlamanızı tavsiye ederiz. Diğer tüm ilgili viki sayfalarını, ekranın sağ tarafında bulunan kenar çubuğumuzdan bulabilirsiniz. We suggest to start from the top, although feel free to read anything that seems remotely interesting to you, there are no limits on ASF knowledge.
+
+If you need further help, please check out our **[support channels](https://github.com/JustArchiNET/ArchiSteamFarm/blob/master/SUPPORT.md)**, which you can use for all the questions and technical difficulties.
+
+GitHub **[issues](https://github.com/JustArchiNET/ArchiSteamFarm/issues)** page is being used for ASF development, especially in regards to bugs and enhancements. We have a very strict policy regarding that, as GitHub is **not** a general support channel, it's dedicated exclusively to ASF development and we're not answering common ASF matters there, as we have appropriate **[support channels](https://github.com/JustArchiNET/ArchiSteamFarm/blob/master/SUPPORT.md)** for that. If you're not sure whether your matter relates to ASF development or not, we recommend to use a support channel instead. Invalid GitHub issues will be closed immediately and won't be answered.
